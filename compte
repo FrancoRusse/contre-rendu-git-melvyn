@@ -1,24 +1,28 @@
-Héberger un projet sur github
-
-Premierement il nous faut créer un "new repository" dans son espace perso sur GitHub, afin d'y déposer le fichier.
-
-1) Créer son fichier et l'neregistrer dans le fichier souhaiter
-2) commande: git init => permet d'indiquer ou venir chercher le fichier
-3) commande: git add (suivi du nom du fichier de manière a indexer le fichier)
-4) commande: git commit -m "message" permet de valider le programme 
-5) commande: git remote add origin url (url du dossier de destination sur github)
-6) commande: git push -u origin master => permet de pousser le fichier vers sa destination
 
 
-dépot déjà héberger sur github
+Pour travailler sur un projet existant et l’héberger chez GitHub
 
-1) commande: git init "nomdufichier" => permet de savoir ou il faut venir chercher le fichier
-2) commande: cd/ (suivi du chemin a suivre) => pour se placer dans le bon dossier
-3) commande: git clone (suivi de l'url du site) => permet de cloner le fichier 
-4) commande: git commit -m "message" => permet de valider le contenu du programme
-5) commande: git remote add origin (suivi de l'url du dossier de destination) => permet d'nvoyer le fichier sur le dépot 
-6) commande: git push origin master => permet de pousser le fichier vers sa destination
-7) entrez le login et le mot de passe 
+Tout d'abord, il faut créer un nouveau répertoire sur le site GitHub, afin d'y déposer le fichier.
+Pour commencer, il faut crée un projet et l'enregistrer.
+Après il faut taper la commande git init, qui permet d'indiquer ou on peux aller chercher le fichier.
+La commande suivante, c'est git add "nom du fichier".
+Après on faut, la commande git commit -m "message" permet de valider le programme avec "message" qui est obligatoire.
 
+Saisir la commande git remote add origin [url du dossier sur GitHub] afin d'envoyer la fichier sur le dépot GitHub.
+Pour finir, on va entrer la commande git push -u origin master pour pouvoir pousser le fichier vers sa destination.
+
+Pour travailler sur un projet déjà hébergé sur le site github !
+Pour commencer, il faut crée un dépôt sur le gitHub.
+La 1ère commande à mettre dans le termainal est : git init "nomdufichier"
+Il permet de définir le dossier ou il faudra venir chercher le fichier.
+La 2éme commande, c'est cd /chemin , exemple : cd /home/etudiant..
+Il permet permet de se placer dans le dossier.
+La 3éme commande, c'est git clone [url du site]permet de cloner le fichier et de le télécharger en local.
+La 4éme commande, c'est git commit -m "message" , il permet de valider le programme, le message est obligatoire.
+La 5éme commande, c'est git remote add origin [url du dossier sur github]
+cette commande permet d'envoyer le fichier sur le dépôt.
+La 6ème commande, c'est git push origin master, il permet de pousser le fichier vers le dossier.
+Ensuite on entre le login et le mot de passe .
+Omourkhajiev-Adam
 
 
